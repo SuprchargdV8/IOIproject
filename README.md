@@ -1,7 +1,7 @@
 # IOIproject
 
 ### Mapa "Prototype" vsebuje prototip projekta.
-1. v mapi "Builds" se nahaja delujoča verzija za operacijski sistem Windows.
+V mapi "Builds" se nahaja delujoča verzija za operacijski sistem Windows.
 
 ---
 
