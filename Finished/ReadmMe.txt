@@ -1,0 +1,3 @@
+Projekt je dostopen na naslovu spodnjem naslovu, kjer so v ReadMe napisana natančnejša navodila.
+
+https://github.com/SuprchargdV8/IOIproject.git
