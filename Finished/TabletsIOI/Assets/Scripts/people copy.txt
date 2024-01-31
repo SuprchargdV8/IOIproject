@@ -1,0 +1,6 @@
+2023,Legende računalništva in informatike,Cene Bavec,Saša Divjak,Janez Grad,Jože Gričar,Izidor Hafner,Vladislav Rajkovič,Stane Štefančič,Lidija Zadnik Stirn,Borut Žalik,Anton Pavel Železnikar
+2022,Legende računalništva in informatike: Rudi Bric,Matjaž Gams,Tomaž Gornik,Tomaž Kalin,Robert Leskovar,Domen Mongus,Niko Schlamberger,Franc Solina,Tone Stanovnik,Denis Trček,Žiga Turk
+2021,Pionirji računalništva v slovenskih srednjih šolah: Branko Roblek,Jernej Virant,Milan Kac,Bogomir Horvat,Cveto Trampuž,Egon Zakrajšek,Milan Adamič,Janez Grad,Ivan Bratko,Vladislav Rajkovič,Iztok Lajovic,Franc Savnik,Mira Volk,Janez Lesjak,Izidor Hafner
+2018,Nagrada najboljšemu učitelji oziroma profesorju v osnovni oziroma srednji šolo,Gregor Anželj
+2018,Posebno priznanje,prof. dr. Anton P. Železnikar
+2018,Življenjsko priznanje Prva dama slovenskega interneta,prof. dr. Borka Džonova Jerman Blažič

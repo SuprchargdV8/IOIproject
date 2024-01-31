@@ -1,10 +1,6 @@
-Michelle Obama;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet tempus sapien. In nec rhoncus leo. Integer maximus, mauris vel tristique sodales, metus tortor egestas mi, ac iaculis quam odio id lacus.
-Barak Obama;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet tempus sapien. In nec rhoncus leo. Integer maximus, mauris vel tristique sodales, metus tortor egestas mi, ac iaculis quam odio id lacus.
-Bill Gates;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet tempus sapien. In nec rhoncus leo. Integer maximus, mauris vel tristique sodales, metus tortor egestas mi, ac iaculis quam odio id lacus.
-Jim Carrey;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet tempus sapien. In nec rhoncus leo. Integer maximus, mauris vel tristique sodales, metus tortor egestas mi, ac iaculis quam odio id lacus.
-Morgan Freeman;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet tempus sapien. In nec rhoncus leo. Integer maximus, mauris vel tristique sodales, metus tortor egestas mi, ac iaculis quam odio id lacus.
-Johny Depp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet tempus sapien. In nec rhoncus leo. Integer maximus, mauris vel tristique sodales, metus tortor egestas mi, ac iaculis quam odio id lacus.
-Leonardo DiCaprio;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet tempus sapien. In nec rhoncus leo. Integer maximus, mauris vel tristique sodales, metus tortor egestas mi, ac iaculis quam odio id lacus.
-Will Smith;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet tempus sapien. In nec rhoncus leo. Integer maximus, mauris vel tristique sodales, metus tortor egestas mi, ac iaculis quam odio id lacus.
-Joe Biden;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet tempus sapien. In nec rhoncus leo. Integer maximus, mauris vel tristique sodales, metus tortor egestas mi, ac iaculis quam odio id lacus.
-Jackie Chan;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet tempus sapien. In nec rhoncus leo. Integer maximus, mauris vel tristique sodales, metus tortor egestas mi, ac iaculis quam odio id lacus.
+2023,Legende racunalnistva in informatike,Cene Bavec,Sasa Divjak,Janez Grad,Joze Gricar,Izidor Hafner,Vladislav Rajkovic,Stane Stefancic,Lidija Zadnik Stirn,Borut Zalik,Anton Pavel Zeleznikar
+2022,Legende racunalnistva in informatike,Rudi Bric,Matjaz Gams,Tomaz Gornik,Tomaz Kalin,Robert Leskovar,Domen Mongus,Niko Schlamberger,Franc Solina,Tone Stanovnik,Denis Trcek,Ziga Turk
+2021,Pionirji racunalnistva v slovenskih srednjih solah,Branko Roblek,Jernej Virant,Milan Kac,Bogomir Horvat,Cveto Trampuz,Egon Zakrajsek,Milan Adamic,Janez Grad,Ivan Bratko,Vladislav Rajkovic,Iztok Lajovic,Franc Savnik,Mira Volk,Janez Lesjak,Izidor Hafner
+2018,Nagrada najboljsemu ucitelji oziroma profesorju v osnovni oziroma srednji solo,Gregor Anzelj
+2018,Posebno priznanje,prof. dr. Anton P. Zeleznikar
+2018,Zivljenjsko priznanje Prva dama slovenskega interneta,prof. dr. Borka Dzonova Jerman Blazic

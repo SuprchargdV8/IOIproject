@@ -43,6 +43,7 @@
      <Compile Include="Assets\Simple Helvetica\SimpleHelvetica.cs" />
      <None Include="Assets\Scripts\people.txt" />
      <None Include="Assets\Simple Helvetica\readme.txt" />
+     <None Include="Assets\Scripts\people copy.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

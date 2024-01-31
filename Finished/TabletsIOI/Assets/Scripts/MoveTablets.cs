@@ -14,16 +14,15 @@ public class MoveTablets : MonoBehaviour
         // generate tablets
         string[] text = textFile.text.Split("\n");
         int n = text.Length;
-        Debug.Log(n);
         int cnt = 0;
 
         tabletTrans = new Transform[n];
-
+        Debug.Log(n);
         for(int i = -(n / 2 - 1); i < n/2 + 1; i++){
-            float xLoc = i*11;
+            float xLoc = i*12;
             GameObject temp = Instantiate(tablet, new Vector3(xLoc, 0, 0.01f*(xLoc*xLoc)), Quaternion.Euler(0, 0, 0));
             temp.transform.parent=transform;
-            temp.GetComponentInChildren<replaceText>().changeText(text[cnt].Split(";")[0],text[cnt].Split(";")[1]);
+            temp.GetComponentInChildren<replaceText>().changeText(text[cnt]);
             tabletTrans[cnt] = temp.GetComponent<Transform>();
             cnt++;
         }
@@ -37,7 +36,6 @@ public class MoveTablets : MonoBehaviour
         for(int i = 0; i < n; i++){
             temps[i] = Mathf.Round((tabletTrans[i].position[0] - movement*scaler) * 10) / 10;
         }
-        Debug.Log(temps[0]);
         bool tooBig = temps[0] > 0;
         bool tooSmall = temps[n-1] < 0;
 

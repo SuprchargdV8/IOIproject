@@ -72,7 +72,7 @@ public class SimpleHelvetica : MonoBehaviour {
 	
 	
 	//Generate New 3D Text
-	public void GenerateText() {
+	public float GenerateText() {
 		
 		//Debug.Log ("GenerateText Called");
 		
@@ -104,12 +104,23 @@ public class SimpleHelvetica : MonoBehaviour {
 				} else if (childObjectName=="."){
 					LetterToShow = transform.Find("_Alphabets/"+"period").gameObject; //special case for "." - naming issue	
 				} else {
-					LetterToShow = transform.Find("_Alphabets/"+childObjectName).gameObject;
+					LetterToShow = null;
+					try{
+						LetterToShow = transform.Find("_Alphabets/"+childObjectName).gameObject;
+					}
+					catch (System.Exception)
+					{
+						Debug.Log("sth went wrong");
+					}
 				}
 				
 				//Debug.Log(LetterToShow);
 				
-				AddLetter(LetterToShow);
+				if(LetterToShow != null){
+					AddLetter(LetterToShow);
+				} else {
+					continue;
+				}
 				
 				//find the width of the letter used
 				Mesh mesh = LetterToShow.GetComponent<MeshFilter>().sharedMesh;
@@ -130,11 +141,12 @@ public class SimpleHelvetica : MonoBehaviour {
 		transform.Find("_Alphabets").gameObject.SetActiveRecursively(false);
 #endif
 		
+		return CharXLocation;
 	}
 	
 
 	void AddLetter(GameObject LetterObject){
-		
+		if(LetterObject == null) return;
 		GameObject NewLetter = Instantiate(LetterObject, transform.position, transform.rotation) as GameObject;
 		NewLetter.transform.parent=transform; //setting parent relationship
 		

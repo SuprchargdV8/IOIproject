@@ -18,23 +18,21 @@ public class InputController : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         anime = this.GetComponent<Animation>();
         cameraMove = GameObject.Find("Camera").GetComponent<CameraMove>();
         tabletMover = GameObject.Find("Tablets").GetComponent<MoveTablets>();
-        Debug.Log("END");
     }
     public void OnPointerDown(PointerEventData eventData){
         //empty
     }
 
     public void OnPointerUp(PointerEventData eventData){
-        Debug.Log("Tralala");
         if(!drag){
             cameraMove.setZoom();
             zoom = cameraMove.zoom;
-            anime.Play("Celebration");
+            if(zoom) anime.Play("Cube_RotateIn");
+            else anime.Play("Cube_RotateOut");
         }
     }
 
     public void OnDrag(PointerEventData eventData){
-        Debug.Log("OnDrag");
         if(!zoom){
             tabletMover.move(prevDrag - eventData.position[0]);
             prevDrag = eventData.position[0];
@@ -42,7 +40,6 @@ public class InputController : MonoBehaviour, IPointerDownHandler, IPointerUpHan
     }
 
     public void OnBeginDrag(PointerEventData eventData){
-        Debug.Log("OnBeginDrag");
         if(!zoom){
             drag = true;
             prevDrag = eventData.position[0];
@@ -50,7 +47,6 @@ public class InputController : MonoBehaviour, IPointerDownHandler, IPointerUpHan
     }
 
     public void OnEndDrag(PointerEventData eventData){
-        Debug.Log("OnEndDrag");
         if(!zoom){
             drag = false;
         }
